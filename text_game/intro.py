@@ -17,7 +17,7 @@ def show_activities():
 
 def perform_activity(chosen_option):
     if chosen_option == "A":
-        url = "https://hips.hearstapps.com/hbz.h-cdn.co/assets/15/06/2560x1280/landscape_nrm_1423002533-hbz-0315-rihanna-01-index.jpg?resize=980:*"
+        url = "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1004792742%2F960x0.jpg%3Ffit%3Dscale"
         print(url)
 
 welcome_message()
