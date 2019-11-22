@@ -17,7 +17,7 @@ def show_activities():
 
 def perform_activity(chosen_option):
     if chosen_option == "A":
-        url = "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1004792742%2F960x0.jpg%3Ffit%3Dscale"
+        url = "https://cdn.cnn.com/cnnnext/dam/assets/190728114701-shark-1-exlarge-169.jpg"
         print(url)
 
 welcome_message()
