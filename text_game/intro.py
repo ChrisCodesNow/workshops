@@ -15,8 +15,15 @@ def show_activities():
     print("B. Dance with Wolves")
     print("C. Sleep with Fish")
 
+def perform_activity(chosen_option):
+    if chosen_option == "A":
+        url = "https://hips.hearstapps.com/hbz.h-cdn.co/assets/15/06/2560x1280/landscape_nrm_1423002533-hbz-0315-rihanna-01-index.jpg?resize=980:*"
+        print(url)
+
 welcome_message()
 if person_enters():
     show_activities()
+    chosen_option = input("Select one: ")
+    perform_activity(chosen_option)
 else:
    print("come back soon!")
